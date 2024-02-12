@@ -23,9 +23,25 @@ print('\n')
 
 # 6 loop iterate over and print the contents of the file
 
+# For loop
 for i in range(10):
-    # range is however many times to repeat the poem
+    # range is however many times to repeat the poem, in this case 10
     repeat_line = pelican_poem
-    # print(line, repeat_line, end='')
-    print(i, repeat_line[:-1])
+    print(repeat_line[:-1])
 #     slicing it removes the blank line
+# Infinite for loop will require an importing itertoools module
+
+print('\n\n')
+
+# While loop
+# Repeat the poem 10 times with a while loop
+i = 0
+while i < 10:
+    repeat_line = pelican_poem
+    print(repeat_line[:-1])
+    i += 1
+
+# # While loop - infinite loop
+# repeat_line = pelican_poem
+# while True:
+#     print(repeat_line[:-1])

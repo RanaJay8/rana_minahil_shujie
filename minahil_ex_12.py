@@ -28,12 +28,12 @@ print(cheese)
 # a) the code below prints 5 as the variable tup is a string value
 #    therefore, len counts number of characters in the string which is 5
 
-# tup = 'Hello'
-# print(len(tup))
+tup_1 = 'Hello'
+print(len(tup_1))
 
 # b) this code prints 1 as the variable tup here is a tuple because of the ','
 #    so len counts how many values within the tuple which is 1
 
-# tup = 'Hello',
-# print(len(tup))
+tup_2 = 'Hello',
+print(len(tup_2))
 

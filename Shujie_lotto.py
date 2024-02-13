@@ -16,12 +16,12 @@ print(f"Lotto numbers of the week: {Lotto_numbers}")
 
 
 # Using a for loop
-Lotto = []
+Lotto_for = []
 for i in range(6):
     # specifying the range as 6 will generate 6 numbers
-    Lotto.append(random.randint(1, 50))
+    Lotto_for.append(random.randint(1, 50))
 #   random.randint method returns an integer number from a specific range
-print(f"Lotto numbers of the week: {Lotto}")
+print(f"Lotto numbers of the week: {Lotto_for}")
 
 
 # Using a while loop

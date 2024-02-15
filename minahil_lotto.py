@@ -20,3 +20,6 @@ def generate_lottery_numbers():
 # lottery_numbers
 lottery_numbers = generate_lottery_numbers()
 print("Lottery Numbers:", lottery_numbers)
+
+lotto_numbers = random.sample(range(1, 51), 6)
+print(lotto_numbers)

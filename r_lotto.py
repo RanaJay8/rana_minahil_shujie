@@ -12,6 +12,6 @@ print(random.randint(1,50))
 # randrange() allows for a step parameter, enabling you to generate random numbers with specific increments.
 
 # Used a loop 'for' to generate 6 random numbers in one list
-lotto_numbers =[random.randint(1,50) for _ in range (6)]
+lotto_numbers =[random.randint(1,50) for _ in range(6)]
 print(lotto_numbers)
 print(type(lotto_numbers))
